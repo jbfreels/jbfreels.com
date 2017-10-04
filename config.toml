@@ -1,3 +1,107 @@
-baseURL = "http://example.org/"
+# Site settings
+baseurl = "https://itsmejb.xyz" #without ending slash
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "JB Freels - Software Engineer"
+theme = "hugo-identity-theme"
+#theme = "hugo-theme-nix"
+#themesDir = ""
+
+# Disable unnecessary kinds
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+
+# Enter your tracking code to enable Google Analytics
+#googleAnalytics = "UA-XXXXX-Y"
+
+[params]
+
+  # Images settings
+  # Icons, backgrounds and avatars folders are placed in theme's static/images folder.
+  # You may place your images in corresponding folders and then set only filenames below to
+  # change page's appearance
+
+  # Site icons
+  favicon_ico = "favicon.ico"
+  favicon_ico_sizes = "16x16 32x32"
+  appleicon = "apple.png"
+
+  # Additional options to supplement icons served
+  #favicon_png = "favicon.png"
+  #favicon_png_sizes = "96x96"
+  #favicon_svg = "favicon.svg"
+
+  # Link custom assets relative to /static
+  #custom_js  = [""]
+  #custom_css = ["background.css", "icons.css"]
+
+  # Customization switches
+  # Overwrite FontAwesome: see icons.css
+  #custom_icons = true
+  # Overwrite background: see background.css
+  #custom_background = true
+
+  # Personal data
+  [params.personal]
+    # If name is not set, author is used
+    name = "JB Freels"
+    # Avatars can be written to images/avatars/
+    avatar = "itsmejb.jpg"
+    position = "Software Engineer"
+    livesIn = "[Atlanta, GA](https://www.google.com/maps/place/Atlanta,+GA/@33.7676338,-84.5606889)"
+    scope = [
+      "Software Professional & Solutions Architect",
+      "CloudOps for [TerraGo Magic](http://magic.terragotech.com/)",
+      "Aspiring maker",
+      "Devoted father",
+    ]
+    biography = """"""
+
+  # Social settings
+  [[params.social]]
+    title = "Github"
+    icon = "fa-github"
+    link = "https://github.com/jbfreels"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "https://twitter.com/jbfreels"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Instagram"
+    icon = "fa-instagram"
+    link = "https://instagram.com/jb4reals"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Facebook"
+    icon = "fa-facebook"
+    link = "https://facebook.com/jbfreels"
+    target = "_blank"
+
+  [[params.social]]
+    title = "LinkedIn"
+    icon = "fa-linkedin"
+    link = "https://www.linkedin.com/in/jbfreels"
+    target = "_blank"    
+
+  [[params.social]]
+    title = "Steam"
+    icon = "fa-steam"
+    link = "http://steamcommunity.com/id/jbfreels"
+    target = "_blank"
+    
+  [params.footer]
+    copyright = "JB Freels"
+
+  [params.license]
+    link = "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+    name = "CC-BY-SA-4.0"
+
+  [[params.credits]]
+    # Title is used as URL text
+    title = "HTML5UP"
+    # Text will be used to explain the credit
+    text = "Design by"
+    link = "https://html5up.net"
