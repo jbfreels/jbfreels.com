@@ -3,8 +3,6 @@ baseurl = "https://itsmejb.xyz" #without ending slash
 languageCode = "en-us"
 title = "JB Freels - Software Engineer"
 theme = "hugo-identity-theme"
-#theme = "hugo-theme-nix"
-#themesDir = ""
 
 # Disable unnecessary kinds
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
