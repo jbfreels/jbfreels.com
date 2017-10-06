@@ -85,6 +85,18 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     target = "_blank"    
 
   [[params.social]]
+    title = "Apple Music"
+    icon = "fa-music"
+    link = "https://itunes.apple.com/profile/jbfreels"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Spotify"
+    icon = "fa-spotify"
+    link = "https://open.spotify.com/user/jbfreels"
+    target = "_blank"  
+
+  [[params.social]]
     title = "Steam"
     icon = "fa-steam"
     link = "http://steamcommunity.com/id/jbfreels"
