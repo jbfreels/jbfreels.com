@@ -48,8 +48,8 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     scope = [
       "Software Professional & Solutions Architect",
       "CloudOps for [TerraGo Magic](http://magic.terragotech.com/)",
-      "Aspiring maker",
-      "Devoted father",
+      "Maker",
+      "Father",
     ]
     biography = """"""
 
