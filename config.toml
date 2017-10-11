@@ -84,24 +84,24 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     link = "https://www.linkedin.com/in/jbfreels"
     target = "_blank"    
 
-  [[params.social]]
+  [[params.social_other]]
     title = "Apple Music"
     icon = "fa-music"
     link = "https://itunes.apple.com/profile/jbfreels"
     target = "_blank"
 
-  [[params.social]]
+  [[params.social_other]]
     title = "Spotify"
     icon = "fa-spotify"
     link = "https://open.spotify.com/user/jbfreels"
     target = "_blank"  
 
-  [[params.social]]
+  [[params.social_other]]
     title = "Steam"
     icon = "fa-steam"
     link = "http://steamcommunity.com/id/jbfreels"
     target = "_blank"
-    
+
   [params.footer]
     copyright = "JB Freels"
 

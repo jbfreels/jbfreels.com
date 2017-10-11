@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<!--
+  Identity by HTML5 UP
+  https://html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+  Hugo Identity by Pavel Kanyshev
+  https://github.com/aerohub
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+  Additional changes by Michael Grosser
+  https://about.stp-ip.net
+  Free for personal and commercial use under the CCA 3.0 license (https://creativecommons.org/licenses/by/3.0/legalcode)
+-->
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<html>
+  {{ partial "header.html" . }}
+  <body class="is-loading">
+
+    <!-- Wrapper -->
+      <div id="wrapper">
+
+        <!-- Main -->
+          <section id="main">
+            <header>
+              <span class="avatar"><img src="{{ .Site.Params.personal.avatar | printf "/images/avatars/%s" | relURL  }}" alt="avatar" height="130" width="130" ></span>
+              <h1 class="name">
+                {{ with .Site.Params.personal.name }}
+                  {{ . }}
+                {{ else }}
+                  {{ .Site.Params.author }}
+                {{ end }}
+              </h1>
+              {{ with .Site.Params.personal.livesIn }}
+                <h5 class=location>Lives in {{ . | markdownify }}</h5>
+              {{ end }}
+
+              {{ with .Site.Params.personal.position }}
+                <h2 class="position">{{ . | markdownify }}</h2>
+              {{ end }}
+
+              {{ with .Site.Params.personal.scope }}
+              <ul>
+                {{ range . }}
+                  <li>{{ . | markdownify }}</li>
+                {{ end }}
+              </ul>
+              {{ end }}
+
+              {{ with .Site.Params.personal.biography }}
+                <span class="biography">{{ . | markdownify }}</span>
+              {{ end }}
+            </header>
+
+            <footer>
+              <ul class="icons">
+                {{ range .Site.Params.social }}
+                  <li><a href="{{ .link }}" class="{{ .icon }}" target="{{ .target | default "_self" }}">{{ .title }}</a></li>
+                {{ end }}
+              </ul>
+
+              <ul class="icons">
+                {{ range .Site.Params.social_other }}
+                  <li><a href="{{ .link }}" class="{{ .icon }}" target="{{ .target | default "_self" }}">{{ .title }}</a></li>
+                {{ end }}
+              </ul>              
+
+              {{ if .Site.Params.contact.enable }}
+                {{ partial "contact.html" . }}
+              {{ end }}
+            </footer>
+          </section>
+
+        <!-- Footer -->
+          {{ partial "footer.html" . }}
+
+      </div>
+    {{ partial "footer_scripts.html" . }}
+  </body>
+</html>

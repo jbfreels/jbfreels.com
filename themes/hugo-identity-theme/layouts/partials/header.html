@@ -1,0 +1,38 @@
+<head>
+  <title>{{ .Site.Title }}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+  <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+  {{ .Hugo.Generator }}
+  {{ if .Site.Params.favicon_ico }}
+    <link rel="icon" href="{{ .Site.Params.favicon_ico | printf "/images/icons/%s" | relURL  }}" type="image/x-icon" {{ if .Site.Params.favicon_ico_sizes }}sizes="{{ .Site.Params.favicon_ico_sizes  }}"{{ end }} />
+  {{ end }}
+  {{ if .Site.Params.favicon_png }}
+    <link rel="icon" href="{{ .Site.Params.favicon_png | printf "/images/icons/%s" | relURL  }}" type="image/png" {{ if .Site.Params.favicon_png_sizes }}sizes="{{ .Site.Params.favicon_png_sizes  }}"{{ end }} />
+  {{ end }}
+  {{ if .Site.Params.favicon_svg }}
+    <link rel="icon" href="{{ .Site.Params.favicon_svg | printf "/images/icons/%s" | relURL  }}" type="image/svg+xml" sizes="any" />
+  {{ end }}
+  <link rel="apple-touch-icon-precomposed" href="{{ .Site.Params.appleicon | printf "/images/icons/%s" | relURL  }}" />
+
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relURL }}" />
+
+  {{ if not .Site.Params.custom_background }}
+    <link rel="stylesheet" href="{{ "/assets/css/page.css" | relURL }}" />
+  {{ end }}
+
+  {{ if not .Site.Params.custom_icons }}
+    <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | relURL }}" />
+  {{ end }}
+
+  {{ range .Site.Params.custom_css }}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+  {{ end }}
+
+  <!--[if lte IE 8]><script src="{{ "/assets/js/html5shiv.js" | relURL }}"></script><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" href="{{ "/assets/css/ie8.css" | relURL }}" /><![endif]-->
+  <!--[if lte IE 9]><link rel="stylesheet" href="{{ "/assets/css/ie9.css" | relURL }}" /><![endif]-->
+
+  <noscript><link rel="stylesheet" href="{{ "/assets/css/noscript.css" | relURL }}" /></noscript>
+</head>
