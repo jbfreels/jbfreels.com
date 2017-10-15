@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://itsmejb.xyz" #without ending slash
+baseurl = "https://jbfreels.com" #without ending slash
 languageCode = "en-us"
 title = "JB Freels - Software Engineer"
 theme = "hugo-identity-theme"
@@ -48,8 +48,6 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     scope = [
       "Software Professional & Solutions Architect",
       "CloudOps for [TerraGo Magic](http://magic.terragotech.com/)",
-      "Maker",
-      "Father",
     ]
     biography = """"""
 

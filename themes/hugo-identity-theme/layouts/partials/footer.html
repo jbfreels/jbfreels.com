@@ -1,11 +1,11 @@
 <footer id="footer">
   <ul class="copyright">
-    <li>&copy; 
+    <li>&copy; <a href="{{ .Site.BaseURL }}">
       {{ with .Site.Params.footer.copyright }}
         {{ . }}
       {{ else }}
         {{ .Site.Params.author }}
-      {{ end }}</li>
+      {{ end }}</a></li>
     <li>
       {{ with .Site.Params.license }}
         <a href="{{ .link }}">{{ .name }}</a>
