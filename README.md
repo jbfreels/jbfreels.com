@@ -20,3 +20,5 @@ Make sure you have the theme cloned in `themes/hugo-identity-theme`
 ### misc
 I've included a `.htaccess` file to force SSL.  If you're having issues and don't want this functionality, or maybe your host does it differently, just remove the `.htaccess` file in `static/`.
 
+### deploy
+`hugo && rsync -avz public/ jbfreels.com:~/jbfreels.com/

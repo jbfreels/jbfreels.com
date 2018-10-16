@@ -47,7 +47,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     livesIn = "[Atlanta, GA](https://www.google.com/maps/place/Atlanta,+GA/@33.7676338,-84.5606889)"
     scope = [
       "Software Professional & Solutions Architect",
-      "CloudOps for [TerraGo Magic](http://magic.terragotech.com/)",
+      "[TerraGo Technologies](http://www.terragotech.com/)",
     ]
     biography = """"""
 
@@ -58,11 +58,11 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     link = "https://github.com/jbfreels"
     target = "_blank"
 
-  [[params.social]]
-    title = "Twitter"
-    icon = "fa-twitter"
-    link = "https://twitter.com/jbfreels"
-    target = "_blank"
+#  [[params.social]]
+#    title = "Twitter"
+#    icon = "fa-twitter"
+#    link = "https://twitter.com/jbfreels"
+#    target = "_blank"
 
   [[params.social]]
     title = "Instagram"
@@ -70,11 +70,11 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     link = "https://instagram.com/jb4reals"
     target = "_blank"
 
-  [[params.social]]
-    title = "Facebook"
-    icon = "fa-facebook"
-    link = "https://facebook.com/jbfreels"
-    target = "_blank"
+#  [[params.social]]
+#    title = "Facebook"
+#    icon = "fa-facebook"
+#    link = "https://facebook.com/jbfreels"
+#    target = "_blank"
 
   [[params.social]]
     title = "LinkedIn"
@@ -88,11 +88,11 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     link = "https://itunes.apple.com/profile/jbfreels"
     target = "_blank"
 
-  [[params.social_other]]
-    title = "Spotify"
-    icon = "fa-spotify"
-    link = "https://open.spotify.com/user/jbfreels"
-    target = "_blank"  
+#  [[params.social_other]]
+#    title = "Spotify"
+#    icon = "fa-spotify"
+#    link = "https://open.spotify.com/user/jbfreels"
+#    target = "_blank"  
 
   [[params.social_other]]
     title = "Steam"
