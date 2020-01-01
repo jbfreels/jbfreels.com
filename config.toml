@@ -42,7 +42,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     # If name is not set, author is used
     name = "JB Freels"
     # Avatars can be written to images/avatars/
-    avatar = "itsmejb.jpg"
+    avatar = "jan2020.jpg"
     position = "Software Engineer"
     livesIn = "[Atlanta, GA](https://www.google.com/maps/place/Atlanta,+GA/@33.7676338,-84.5606889)"
     scope = [
@@ -64,11 +64,11 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
 #    link = "https://twitter.com/jbfreels"
 #    target = "_blank"
 
-  [[params.social]]
-    title = "Instagram"
-    icon = "fa-instagram"
-    link = "https://instagram.com/jb4reals"
-    target = "_blank"
+#  [[params.social]]
+#    title = "Instagram"
+#    icon = "fa-instagram"
+#    link = "https://instagram.com/jb4reals"
+#    target = "_blank"
 
 #  [[params.social]]
 #    title = "Facebook"
