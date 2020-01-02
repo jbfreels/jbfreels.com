@@ -87,7 +87,7 @@ staticDir = ["static", "../assets/others"]               # static directories
   baidu_verification = ""
 
   [params.cdn]                                       #### CSS and JS Files CDN
-    fontawesome_free_css = '<script src="https://kit.fontawesome.com/c3f92965ac.js" crossorigin="anonymous"></script>'                           # for example '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css" integrity="sha256-fdcFNFiBMrNfWL6OcAGQz6jDgNTRxnrLEd4vJYFWScE=" crossorigin="anonymous">'
+    fontawesome_free_css = '<script src="https://kit.fontawesome.com/c3f92965ac.js" crossorigin="anonymous"></script>'
     animate_css = ''
     gitalk_css = ''
     gitalk_js = ''
