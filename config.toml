@@ -1,115 +1,240 @@
-# Site settings
-baseurl = "https://jbfreels.com" #without ending slash
-languageCode = "en-us"
-title = "JB Freels - Software Engineer"
-theme = "hugo-identity-theme"
+baseURL = "https://jbfreels.com/"
+languageCode = "en"                                      # website language
+defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
+title = "JB Freels - Software Professional"              # website title
+theme = "LoveIt"                                         # theme
+enableGitInfo = false                                    # whether to use git commit log to generate lastmod record
+hasCJKLanguage = false                                   # whether to include chinese/japanese/korean
+paginate = 25                                            # default amount of posts in each pages
+enableEmoji = true                                       # whether to use emoji code
+enableRobotsTXT = true                                   # whether to use robots.txt
+googleAnalytics = ""                                     # [UA-XXXXXXXX-X] google analytics code
+disqusShortname = ""                                     # Disqus shortname to use Disqus in posts
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+                                                         # copyright description used only for seo schema
 
-# Disable unnecessary kinds
-disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+                                                      #### Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+pygmentsOptions = "linenos=table"
+pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
 
-# Enter your tracking code to enable Google Analytics
-#googleAnalytics = "UA-XXXXX-Y"
+staticDir = ["static", "../assets/others"]               # static directories
+
+[author]                                              #### Author Info
+  name = "jbfreels"
+
+[sitemap]                                             #### Sitemap Info
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[Permalinks]                                          #### Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
+  posts = ":year/:month/:filename"
+
+[menu]                                                #### Menu Info
+  [[menu.main]]
+    identifier = "posts"
+    name = "blog"
+    url = "posts"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    url = "tags"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "categories"
+    url = "categories"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "about"
+    weight = 4
 
 [params]
+  version = "5.x"                                        # LoveIt theme version
+  description = ""                      # site description
+  keywords = ["jbfreels", "Theme", "Hugo"]                   # site keywords
 
-  # Images settings
-  # Icons, backgrounds and avatars folders are placed in theme's static/images folder.
-  # You may place your images in corresponding folders and then set only filenames below to
-  # change page's appearance
+                                                      #### Home Page Info
+  home_mode = "post"                                     # [post, other] home mode
+  home_paginate = 6                                      # special amount of posts in each home post page
+  avatar = "images/avatars/jan2020.jpg"                           # URL of avatar shown in home page
+  subtitle = "Software Professional & Solutions Architect"  # subtitle shown in home page
 
-  # Site icons
-  favicon_ico = "favicon.ico"
-  favicon_ico_sizes = "16x16 32x32"
-  appleicon = "apple.png"
+  socialShare = true                                     # whether to show social share links in post page
 
-  # Additional options to supplement icons served
-  #favicon_png = "favicon.png"
-  #favicon_png_sizes = "96x96"
-  #favicon_svg = "favicon.svg"
+                                                      #### Footer CopyRight Info
+  since = 2018                                           # Site creation time
+  icp = ''                                               # ICP info only in China (HTML format is allowed)
+  license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+                                                         # license info (HTML format is allowed)
+  gitRepo = ""                                           # public git repo url to link lastmod git commit only then enableGitInfo is true
 
-  # Link custom assets relative to /static
-  #custom_js  = [""]
-  #custom_css = ["background.css", "icons.css"]
+  linkToMarkdown = true                                  # whether to show link to Raw Markdown content of the post
 
-  # Customization switches
-  # Overwrite FontAwesome: see icons.css
-  #custom_icons = true
-  # Overwrite background: see background.css
-  #custom_background = true
+                                                      #### site verification code for Google/Bing/Yandex/Pinterest/Baidu
+  google_verification = ""
+  bing_verification = ""
+  yandex_verification = ""
+  pinterest_verification = ""
+  baidu_verification = ""
 
-  # Personal data
-  [params.personal]
-    # If name is not set, author is used
-    name = "JB Freels"
-    # Avatars can be written to images/avatars/
-    avatar = "jan2020.jpg"
-    position = "Software Engineer"
-    livesIn = "[Atlanta, GA](https://www.google.com/maps/place/Atlanta,+GA/@33.7676338,-84.5606889)"
-    scope = [
-      "Software Professional & Solutions Architect",
-      "[TerraGo Technologies](http://www.terragotech.com/)",
-    ]
-    biography = """"""
+  [params.cdn]                                       #### CSS and JS Files CDN
+    fontawesome_free_css = '<script src="https://kit.fontawesome.com/c3f92965ac.js" crossorigin="anonymous"></script>'                           # for example '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css" integrity="sha256-fdcFNFiBMrNfWL6OcAGQz6jDgNTRxnrLEd4vJYFWScE=" crossorigin="anonymous">'
+    animate_css = ''
+    gitalk_css = ''
+    gitalk_js = ''
+    valine_js = ''
+    jquery_js = ''
+    lazysizes_js = ''
+    smooth_scroll_js = ''
+    katex_css = ''
+    katex_js = ''
+    katex_auto_render_js = ''
+    mermaid_js = ''
+    echarts_js = ''
+    echarts_macarons_js = ''
+    typeit_js = ''
+    jquery_countdown_js = ''
+    aplayer_css = ''
+    aplayer_js = ''
+    meting_js = ''
 
-  # Social settings
-  [[params.social]]
-    title = "Github"
-    icon = "fa-github"
-    link = "https://github.com/jbfreels"
-    target = "_blank"
+  [params.gravatar]                                      # Gravatar Info for preferred avatar in home page
+    email = ""
 
-#  [[params.social]]
-#    title = "Twitter"
-#    icon = "fa-twitter"
-#    link = "https://twitter.com/jbfreels"
-#    target = "_blank"
+  [params.social]                                        # Social Info in home page
+    GitHub = "jbfreels"
+    Linkedin = "jbfreels"
+    #Twitter = "jbfreels"
+    #Instagram = "xxxx"
+    Email = "jbfreels@me.com"
+    #Facebook = "xxxx"
+    #Telegram = "xxxx"
+    #Medium = "xxxx"
+    #Gitlab = "xxxx"
+    #Youtubelegacy = "xxxx"
+    #Youtubecustom = "xxxx"
+    #Youtubechannel = "xxxx"
+    #Tumblr ="xxxx"
+    #Quora = "xxxx"
+    #Keybase = "xxxx"
+    #Pinterest = "xxxx"
+    #Reddit = "xxxx"
+    Codepen = "jbfreels"
+    #Bitbucket = "xxxx"
+    #Stackoverflow = "xxxx"
+    #Weibo = "xxxx"
+    #Odnoklassniki = "xxxx"
+    #VKontakte = "xxxx"
+    #Flickr = "xxxx"
+    #Xing = "xxxx"
+    #Snapchat = "xxxx"
+    #Soundcloud = "xxxx"
+    #Spotify = "xxxx"
+    #Bandcamp = "xxxx"
+    #Paypal = "xxxx"
+    #Fivehundredpx = "xxxx"
+    #Mix = "xxxx"
+    #Goodreads = "xxxx"
+    #Lastfm = "xxxx"
+    #Foursquare = "xxxx"
+    #Hackernews = "xxxx"
+    #Kickstarter = "xxxx"
+    #Patreon = "xxxx"
+    Steam = "jbfreels"
+    #Twitch = "xxxx"
+    #Strava = "xxxx"
+    #Skype = "xxxx"
+    #Whatsapp = "xxxx"
+    #Zhihu = "xxxx"
+    #Douban = "xxxx"
+    #Angellist = "xxxx"
+    #Slidershare = "xxxx"
+    #Jsfiddle = "xxxx"
+    #Deviantart = "xxxx"
+    #Behance = "xxxx"
+    #Dribble = "xxxx"
+    #Wordpress = "xxxx"
+    #Vine = "xxxx"
+    #Googlescholar = "xxxx"
+    #Researchgate = "xxxx"
+    #Mastodon = "xxxx"
+    #Thingiverse = "xxxx"
 
-#  [[params.social]]
-#    title = "Instagram"
-#    icon = "fa-instagram"
-#    link = "https://instagram.com/jb4reals"
-#    target = "_blank"
+  [params.share]                                         # Social Share Links in post page
+    enable = false
+    Twitter = false
+    Facebook = false
+    Reddit = false
+    #Linkedin = true
+    #Pinterest = true
+    #HackerNews = true
+    #Mix = true
+    #Tumblr = true
+    #VKontakte = true
+    #Weibo = true
 
-#  [[params.social]]
-#    title = "Facebook"
-#    icon = "fa-facebook"
-#    link = "https://facebook.com/jbfreels"
-#    target = "_blank"
+  [params.publisher]                                     # Publisher Info just for SEO
+    name = "@jbfreels"
+    [params.publisher.logo]
+      url = "images/avatars/jan2020.jpg"
+      width = 127
+      height = 40
 
-  [[params.social]]
-    title = "LinkedIn"
-    icon = "fa-linkedin"
-    link = "https://www.linkedin.com/in/jbfreels"
-    target = "_blank"    
+  [params.logo]                                          # Website Log Info just for SEO
+    url = "logo.png"
+    width = 127
+    height = 40
 
-  [[params.social_other]]
-    title = "Apple Music"
-    icon = "fa-music"
-    link = "https://itunes.apple.com/profile/jbfreels"
-    target = "_blank"
+  [params.image]                                         # Website Image Info just for SEO
+    url = "cover.png"
+    width = 800
+    height = 600
 
-#  [[params.social_other]]
-#    title = "Spotify"
-#    icon = "fa-spotify"
-#    link = "https://open.spotify.com/user/jbfreels"
-#    target = "_blank"  
+  [params.gitalk]                                        # Gittalk Comment Config (https://github.com/gitalk/gitalk)
+    owner = ""
+    repo = ""
+    clientId = ""
+    clientSecret = ""
 
-  [[params.social_other]]
-    title = "Steam"
-    icon = "fa-steam"
-    link = "http://steamcommunity.com/id/jbfreels"
-    target = "_blank"
+  [params.valine]                                        # Valine Comment Config (https://github.com/xCss/Valine)
+    enable = false
+    appId = ""
+    appKey = ""
+    notify = false
+    verify = true
+    avatar = "mp"
+    placeholder = "Your comment ..."
+    visitor = true
+    recordIP = true
 
-  [params.footer]
-    copyright = "JB Freels"
+[privacy]                                             #### Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
+  [privacy.googleAnalytics]
+    anonymizeIP = true
 
-  [params.license]
-    link = "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
-    name = "CC-BY-SA-4.0"
+  [privacy.youtube]
+    privacyEnhanced = true
 
-  [[params.credits]]
-    # Title is used as URL text
-    title = "HTML5UP"
-    # Text will be used to explain the credit
-    text = "Design by"
-    link = "https://html5up.net"
+[mediaTypes]                                          #### Options to make hugo output .md files.
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+[outputFormats.MarkDown]                              #### Options to make hugo output .md files.
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+[outputs]                                             #### Options to make hugo output .md files.
+  home = ["HTML", "RSS"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
