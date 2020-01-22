@@ -3,6 +3,7 @@ baseurl = "https://jbfreels.com" #without ending slash
 languageCode = "en-us"
 title = "JB Freels - Software Engineer"
 theme = "hugo-identity-theme"
+IgnoreFiles = [ ".DS_Store"]
 
 # Disable unnecessary kinds
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
@@ -113,3 +114,12 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     # Text will be used to explain the credit
     text = "Design by"
     link = "https://html5up.net"
+
+[deployment]
+  [[deployment.targets]]
+    name = "aws-s3"
+    URL = "s3://jbfreels.com?region=us-east-1"
+    cloudFrontDistributionID = "E3LYLRNW15DPU6"
+  [[deployment.matchers]]
+    pattern = "^.+\\.(html|js|css|svg|ttf)$"
+    gzip = true
