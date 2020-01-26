@@ -10,3 +10,5 @@ This site utilizes...
 * [AWS CLI](https://aws.amazon.com/cli/) - push website to s3
 * [Hugo](https://gohugo.io/) - Not an AWS service, static site generator that made this website
 
+# Interests
+Of course all-things-tech are at the top of my interests list, but outside of that I enjoy reading (check out my [2019 reading list](/2020/01/2019-reading-list/)), cruising, cooking, yard work, small engines, and doing what I can on our cars.  I'm married with two children (3 & 18).
