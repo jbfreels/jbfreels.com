@@ -1,6 +1,7 @@
 ---
 title: "My First Post"
 date: 2020-01-24T09:39:57-05:00
+tags: ["general"]
 draft: false
 ---
 
