@@ -5,7 +5,7 @@ tags: ["book", "reading"]
 draft: false
 ---
 
-Here's my 2019 reading list (21 books), **bold** titles are books I really enjoyed. Links are NOT affiliate links just short URL using amzn.com/PRODUCT_NUMBER
+Here's my 2019 reading list (21 books), **bold** titles are books I really enjoyed. Links are NOT affiliate links just short URL using https://amzn.com/PRODUCT_NUMBER
 
 * [**Molly's Game**](https://amzn.com/006283858X)
 * [**Looking for Alaska**](https://amzn.com/0142402516)
