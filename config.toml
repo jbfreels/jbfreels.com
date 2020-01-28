@@ -67,6 +67,12 @@ pygmentsCodefencesGuessSyntax = true
     url = "about"
     weight = 4
 
+  [[menu.main]]
+    identifier = "uses"
+    name = "uses"
+    url = "uses"
+    weight = 5
+
 [params]
   version = "5.x"                                        # LoveIt theme version
   description = "jbfreels personal blog"                      # site description
