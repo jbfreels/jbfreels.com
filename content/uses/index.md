@@ -1,7 +1,8 @@
 ---
 title: "Uses"
 date: 2020-01-27T16:38:41-05:00
-tags: ["uses", "hardware", "software", "nas", "mbp"]
+tags: ["uses", "hardware", "software", "nas", "mbp",
+       "rpi"]
 ---
 
 I like to change-up my hardware from time to time.  I went nearly 5 years running some flavor of GNU/Linux (mostly Arch) as my main operating system on my desktop but decided late 2019 that I would be more efficient if I had a single system I could use at home and at the office.  I had two different laptops at the office, a 2013 MPB (MacBook Pro) and an Asus G75 running Arch Linux.  The MBP has been quite slow for some time and one morning when I came into the office it gave me a sign, a flashing folder icon and fans running at 100%.  I got a new MBP that could handle everything I need and I'm not looking back.
