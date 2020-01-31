@@ -2,10 +2,9 @@
 title: "2019 Reading List"
 date: 2020-01-26T12:06:46-05:00
 tags: ["book", "reading"]
-draft: false
 ---
 
-Here's my 2019 reading list (21 books), **bold** titles are books I really enjoyed. Links are NOT affiliate links just short URL using https://amzn.com/PRODUCT_NUMBER
+Here's my 2019 reading list (23 books), **bold** titles are books I really enjoyed. Links are NOT affiliate links just short URL using https://amzn.com/PRODUCT_NUMBER
 
 * [**Molly's Game**](https://amzn.com/006283858X)
 * [**Looking for Alaska**](https://amzn.com/0142402516)
@@ -29,3 +28,4 @@ Here's my 2019 reading list (21 books), **bold** titles are books I really enjoy
 * [Behind the Cloud](https://amzn.com/0470521163)
 * [**The Body**](https://amzn.com/0385539304)
 * [How to Train Your Dragon](https://amzn.com/0316085278)
+* [Chemical Pink](https://amzn.com/1590200837)

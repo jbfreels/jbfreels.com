@@ -31,6 +31,11 @@ pygmentsCodefences = true
 pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
 [author]                                              #### Author Info
   name = "jbfreels"
 
@@ -103,7 +108,7 @@ pygmentsCodefencesGuessSyntax = true
   baidu_verification = ""
 
   [params.cdn]                                       #### CSS and JS Files CDN
-    fontawesome_free_css = "https://kit.fontawesome.com/c3f92965ac.js"
+    fontawesome_free_css = '<script src="https://kit.fontawesome.com/c3f92965ac.js" crossorigin="anonymous"></script>'  #"https://kit.fontawesome.com/c3f92965ac.js"
     animate_css = ''
     gitalk_css = ''
     gitalk_js = ''
@@ -145,6 +150,7 @@ pygmentsCodefencesGuessSyntax = true
     #Pinterest = "xxxx"
     #Reddit = "xxxx"
     Codepen = "jbfreels"
+    #FreeCodeCamp = "xxxx"
     #Bitbucket = "xxxx"
     #Stackoverflow = "xxxx"
     #Weibo = "xxxx"
@@ -184,7 +190,7 @@ pygmentsCodefencesGuessSyntax = true
     #Researchgate = "xxxx"
     #Mastodon = "xxxx"
     #Thingiverse = "xxxx"
-
+    #Devto = "xxxx"
   [params.share]                                         # Social Share Links in post page
     enable = false
     Twitter = false
@@ -231,6 +237,13 @@ pygmentsCodefencesGuessSyntax = true
     placeholder = "Your comment ..."
     visitor = true
     recordIP = true
+
+  [params.facebook]                                      # Facebook Comment Config (https://developers.facebook.com/docs/plugins/comments)
+    enable = false
+    width = "100%"
+    numPosts = 10
+    appId = ""
+    languageCode = "en_US"
 
 [privacy]                                             #### Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
   [privacy.googleAnalytics]
