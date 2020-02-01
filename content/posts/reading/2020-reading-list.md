@@ -2,6 +2,7 @@
 title: "2020 Reading List"
 date: 2020-01-26T14:13:07-05:00
 tags: ["book", "reading"]
+category: ["reading"]
 draft: false
 ---
 

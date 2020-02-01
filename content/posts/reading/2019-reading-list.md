@@ -2,6 +2,7 @@
 title: "2019 Reading List"
 date: 2020-01-26T12:06:46-05:00
 tags: ["book", "reading"]
+category: ["reading"]
 ---
 
 Here's my 2019 reading list (23 books), **bold** titles are books I really enjoyed. Links are NOT affiliate links just short URL using https://amzn.com/PRODUCT_NUMBER
