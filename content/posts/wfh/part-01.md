@@ -2,7 +2,7 @@
 title: "Working From Home - Part 01"
 date: 2020-02-01T16:23:51-05:00
 tags: ["work from home", "wfh", "office"]
-category: ["work from home"]
+categories: ["work from home"]
 draft: true
 ---
 
