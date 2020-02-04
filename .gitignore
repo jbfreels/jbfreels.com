@@ -2,3 +2,5 @@
 public/
 deploy
 themes/
+deploy.log
+resources/_gen/

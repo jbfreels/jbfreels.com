@@ -79,7 +79,7 @@ unsafe = true
     weight = 5
 
 [params]
-  version = "5.x"                                        # LoveIt theme version
+  version = "0.1.X"                                        # LoveIt theme version
   description = "jbfreels personal blog"                      # site description
   keywords = ["jbfreels", "Theme", "Hugo", "software", "professional"]                   # site keywords
 
@@ -97,6 +97,17 @@ unsafe = true
   license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
                                                          # license info (HTML format is allowed)
   gitRepo = "https://github.com/jbfreels/jbfreels.com"                                           # public git repo url to link lastmod git commit only then enableGitInfo is true
+  # mathematical formulas (KaTeX)
+  [params.math]
+    enable = true
+    block_left_delimiter = ""
+    block_right_delimiter = ""
+    inline_left_delimiter = "$"
+    inline_right_delimiter = "$"
+    # KaTeX extension copy_tex
+    copy_tex = true
+    # KaTeX extension mhchem
+    mhchem = true
 
   linkToMarkdown = true                                  # whether to show link to Raw Markdown content of the post
 
@@ -119,6 +130,9 @@ unsafe = true
     katex_css = ''
     katex_js = ''
     katex_auto_render_js = ''
+    katex_copy_tex_css = ''
+    katex_copy_tex_js = ''
+    katex_mhchem_js = ''
     mermaid_js = ''
     echarts_js = ''
     echarts_macarons_js = ''
@@ -220,6 +234,10 @@ unsafe = true
     url = "cover.png"
     width = 800
     height = 600
+
+  [params.disqus]
+    # Disqus shortname to use Disqus in posts
+    shortname = "jbfreels"
 
   [params.gitalk]                                        # Gittalk Comment Config (https://github.com/gitalk/gitalk)
     owner = ""
