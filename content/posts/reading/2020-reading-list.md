@@ -10,3 +10,4 @@ Here's my 2020 reading list, updated as I read more in 2020
 
 * [Thirteen](https://amzn.com/1409170675)
 * **[The Art of Racing in the Rain](https://amzn.com/006236491X)**
+* [Annihilation](https://amzn.com/0374104093)
