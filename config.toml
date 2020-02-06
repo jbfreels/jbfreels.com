@@ -15,17 +15,16 @@ IgnoreFiles = [ ".DS_Store"]
     pattern = "^.+\\.(html|js|css|svg|ttf)$"
     gzip = true
 
-enableGitInfo = true                                    # whether to use git commit log to generate lastmod record
-hasCJKLanguage = false                                   # whether to include chinese/japanese/korean
-paginate = 12                                            # default amount of posts in each pages
-enableEmoji = true                                       # whether to use emoji code
-enableRobotsTXT = true                                   # whether to use robots.txt
-googleAnalytics = ""                                     # [UA-XXXXXXXX-X] google analytics code
-disqusShortname = "jbfreels"                             # Disqus shortname to use Disqus in posts
+enableGitInfo = true
+hasCJKLanguage = false
+paginate = 12
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+disqusShortname = "jbfreels"
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-                                                         # copyright description used only for seo schema
 
-                                                      #### Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+# Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
 pygmentsOptions = "linenos=table"
 pygmentsCodefences = true
 pygmentsUseClasses = true
@@ -33,11 +32,25 @@ pygmentsCodefencesGuessSyntax = true
 
 [markup]
 [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
 [markup.goldmark.renderer]
 unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
 
-[author]                                              #### Author Info
+# Atuthor Info
+[author]
   name = "jbfreels"
+  link = "https://jbfreels.com"
 
 [sitemap]                                             #### Sitemap Info
   changefreq = "weekly"
@@ -89,13 +102,13 @@ unsafe = true
   avatar = "images/avatars/jan2020.jpg"                           # URL of avatar shown in home page
   subtitle = "Software Professional & Solutions Architect"  # subtitle shown in home page
 
-  socialShare = false                                     # whether to show social share links in post page
+  socialShare = false
 
-                                                      #### Footer CopyRight Info
   since = 2017
-  icp = ''                                               # ICP info only in China (HTML format is allowed)
-  license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
-                                                         # license info (HTML format is allowed)
+  icp = ""
+  license= ""
+
+  # public git repo url to link lastmod git commit only then enableGitInfo is true
   gitRepo = "https://github.com/jbfreels/jbfreels.com"                                           # public git repo url to link lastmod git commit only then enableGitInfo is true
   # mathematical formulas (KaTeX)
   [params.math]
@@ -109,17 +122,19 @@ unsafe = true
     # KaTeX extension mhchem
     mhchem = true
 
-  linkToMarkdown = true                                  # whether to show link to Raw Markdown content of the post
+  # whether to show link to Raw Markdown content of the post
+  linkToMarkdown = true
 
-                                                      #### site verification code for Google/Bing/Yandex/Pinterest/Baidu
+  # site verification code for Google/Bing/Yandex/Pinterest/Baidu
   google_verification = ""
   bing_verification = ""
   yandex_verification = ""
   pinterest_verification = ""
   baidu_verification = ""
 
-  [params.cdn]                                       #### CSS and JS Files CDN
-    fontawesome_free_css = '<script src="https://kit.fontawesome.com/c3f92965ac.js" crossorigin="anonymous"></script>'  #"https://kit.fontawesome.com/c3f92965ac.js"
+  # CSS and JS Files CDN
+  [params.cdn]
+    fontawesome_free_css = '<script src="https://kit.fontawesome.com/c3f92965ac.js" crossorigin="anonymous"></script>'
     animate_css = ''
     gitalk_css = ''
     gitalk_js = ''
@@ -142,10 +157,12 @@ unsafe = true
     aplayer_js = ''
     meting_js = ''
 
-  [params.gravatar]                                      # Gravatar Info for preferred avatar in home page
+  # Gravatar Info for preferred avatar in home page
+  [params.gravatar]
     email = ""
 
-  [params.social]                                        # Social Info in home page
+  # Social Info in home page
+  [params.social]
     GitHub = "jbfreels"
     Linkedin = "jbfreels"
     #Twitter = "xxxx"
@@ -205,12 +222,17 @@ unsafe = true
     #Mastodon = "xxxx"
     #Thingiverse = "xxxx"
     #Devto = "xxxx"
-  [params.share]                                         # Social Share Links in post page
+    #Gitea = "xxxx"
+    #XMPP = "xxxx"
+    #Matrix ="xxxx"
+
+  # Social Share Links in post page
+  [params.share]
     enable = false
     Twitter = false
     Facebook = false
     Reddit = false
-    #Linkedin = true
+    Linkedin = true
     #Pinterest = true
     #HackerNews = true
     #Mix = true
@@ -218,19 +240,22 @@ unsafe = true
     #VKontakte = true
     #Weibo = true
 
-  [params.publisher]                                     # Publisher Info just for SEO
+  # Publisher Info just for SEO
+  [params.publisher]
     name = "JB Freels"
     [params.publisher.logo]
       url = "logo.png"
       width = 127
       height = 40
 
-  [params.logo]                                          # Website Log Info just for SEO
+  # Website Log Info just for SEO
+  [params.logo]
     url = "logo.png"
     width = 127
     height = 40
 
-  [params.image]                                         # Website Image Info just for SEO
+  # Website Image Info just for SEO
+  [params.image]
     url = "cover.png"
     width = 800
     height = 600
@@ -239,13 +264,15 @@ unsafe = true
     # Disqus shortname to use Disqus in posts
     shortname = "jbfreels"
 
-  [params.gitalk]                                        # Gittalk Comment Config (https://github.com/gitalk/gitalk)
+  # Gittalk Comment Config (https://github.com/gitalk/gitalk)
+  [params.gitalk]
     owner = ""
     repo = ""
     clientId = ""
     clientSecret = ""
 
-  [params.valine]                                        # Valine Comment Config (https://github.com/xCss/Valine)
+  # Valine Comment Config (https://github.com/xCss/Valine)
+  [params.valine]
     enable = false
     appId = ""
     appKey = ""
@@ -256,30 +283,35 @@ unsafe = true
     visitor = true
     recordIP = true
 
-  [params.facebook]                                      # Facebook Comment Config (https://developers.facebook.com/docs/plugins/comments)
+  # Facebook Comment Config (https://developers.facebook.com/docs/plugins/comments)
+  [params.facebook]
     enable = false
     width = "100%"
     numPosts = 10
     appId = ""
     languageCode = "en_US"
 
-[privacy]                                             #### Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
+# Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
+[privacy]
   [privacy.googleAnalytics]
     anonymizeIP = true
 
   [privacy.youtube]
     privacyEnhanced = true
 
-[mediaTypes]                                          #### Options to make hugo output .md files.
+# Options to make output .md files
+[mediaTypes]
   [mediaTypes."text/plain"]
     suffixes = ["md"]
 
-[outputFormats.MarkDown]                              #### Options to make hugo output .md files.
+# Options to make output .md files
+[outputFormats.MarkDown]
   mediaType = "text/plain"
   isPlainText = true
   isHTML = false
 
-[outputs]                                             #### Options to make hugo output .md files.
+# Options to make hugo output files
+[outputs]
   home = ["HTML", "RSS"]
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
