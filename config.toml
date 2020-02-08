@@ -31,7 +31,16 @@ pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
 [markup]
-[markup.goldmark]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 4
+  [markup.goldmark]
     [markup.goldmark.extensions]
       definitionList = true
       footnote = true
@@ -40,8 +49,8 @@ pygmentsCodefencesGuessSyntax = true
       table = true
       taskList = true
       typographer = true
-[markup.goldmark.renderer]
-unsafe = true
+    [markup.goldmark.renderer]
+      unsafe = true
   # Table Of Contents settings
   [markup.tableOfContents]
     startLevel = 2
@@ -92,15 +101,15 @@ unsafe = true
     weight = 5
 
 [params]
-  version = "0.1.X"                                        # LoveIt theme version
-  description = "jbfreels personal blog"                      # site description
-  keywords = ["jbfreels", "Theme", "Hugo", "software", "professional"]                   # site keywords
+  version = "0.1.X"      
+  defaultTheme = "dark"
+  description = "jbfreels personal blog"
+  keywords = ["jbfreels", "Theme", "Hugo", "software", "professional"]
 
-                                                      #### Home Page Info
-  home_mode = "post"                                     # [post, other] home mode
-  home_paginate = 6                                      # special amount of posts in each home post page
-  avatar = "images/avatars/jan2020.jpg"                           # URL of avatar shown in home page
-  subtitle = "Software Professional & Solutions Architect"  # subtitle shown in home page
+  home_mode = "post"
+  home_paginate = 6
+  avatar = "images/avatars/jan2020.jpg"
+  subtitle = "Software Professional & Solutions Architect"
 
   socialShare = false
 
@@ -108,9 +117,8 @@ unsafe = true
   icp = ""
   license= ""
 
-  # public git repo url to link lastmod git commit only then enableGitInfo is true
   gitRepo = "https://github.com/jbfreels/jbfreels.com"                                           # public git repo url to link lastmod git commit only then enableGitInfo is true
-  # mathematical formulas (KaTeX)
+
   [params.math]
     enable = true
     block_left_delimiter = ""
