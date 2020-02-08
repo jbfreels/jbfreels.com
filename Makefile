@@ -22,3 +22,6 @@ deploy: build-production
 
 aws-cloudfront-invalidate-all:
 	$(AWS) cloudfront create-invalidation --distribution-id $(CLOUDFRONT_ID) --paths "/*"
+
+server:
+	HUGO_ENV=production $(HUGO) server -D

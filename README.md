@@ -13,7 +13,12 @@ git clone https://github.com/dillonzq/LoveIt themes/LoveIt
 ```
 
 ### build
-`HUGO_ENV=production hugo server -D`
+`make build-productino`
+
+### test
+`make server` 
+
+Open web browser to *http://localhost:1313* to view.
 
 #### s3 deploy
-Makefile added which allows you to `build-production` and `deploy`
+`make deploy` 
