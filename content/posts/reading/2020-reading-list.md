@@ -14,4 +14,5 @@ Here's my 2020 reading list, updated as I read more in 2020
 * [Annihilation](https://amzn.com/0374104093)
 
 ## February
-* [Supermarket](https://amzn.com/1982127139)
+* **[Supermarket](https://amzn.com/1982127139)**
+* [The Outsorcerer's Apprentice](https://amzn.com/0316368792)
