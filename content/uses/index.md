@@ -30,9 +30,15 @@ All links are where I purchased the item.  Usually get most my stuff from Amazon
 
 # software
 * VSCode
-* Firefox
-* iTerm2
 * ArcGIS Desktop 10.7.1
 * ArcGIS Enterprise 10.7.1
-* LastPass
+* [LastPass](https://www.lastpass.com/)
+
+## browser
+* [Firefox](https://www.mozilla.org/en-US/firefox/)
+
+## terminal
+* [iTerm2](https://iterm2.com/)
+  * [Z Shell](http://zsh.sourceforge.net/)
+  * [Oh My Zsh](https://ohmyz.sh/)
 
