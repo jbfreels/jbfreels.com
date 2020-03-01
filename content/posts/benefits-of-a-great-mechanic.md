@@ -3,14 +3,13 @@ title: "Benefits of a Great Mechanic"
 date: 2020-02-23T08:59:21-05:00
 categories: ["cars"]
 tags: ["car", "automotive", "mechanic"]
-draft: true
 ---
 
 While there are a lot of life stressors, worrying about car repair is near 
 the top, for me anyway.  My family has never been very good at taking care 
 of automobiles.  My dad would tend to drive his cars until the wheels fell 
 off and laxed on many routine maintenance items.  He wasn't very handy 
-when it came to things around the house and especially with vehicles.  
+when it came to things around the house and especially with vehicles. 
 Inherently, so am I.
 
 I've gone through a slew of mechanics in my time.  I've had the...
@@ -27,11 +26,11 @@ you are paying them.
 
 A couple years ago I started taking a stab at working on my own cars 
 because I didn't like taking them anywhere.  Thankfully, I currently have 
-two vehicles that give me little trouble.  But there is always the regular 
-maintenance.  So I learned to change my own oil, flush the radiators, replace 
-minor cosmetic things such as broken lights.  I started to get comfortable 
-doing some things on my vehicles and it felt liberating to tell you the 
-truth.  
+two vehicles that give me little trouble (A Ford and a Kia, believe it or 
+not LOL).  But there is always the regular maintenance.  So I learned to 
+change my own oil, flush the radiators, replace minor cosmetic things such 
+as broken lights.  I started to get comfortable doing some things on my 
+vehicles and it felt liberating to tell you the truth.  
 
 What happens though when something major happens?  I had a list of mechanics 
 I could go to, but no one I wanted to go to.  During my time trying to 
@@ -53,7 +52,7 @@ and probably my absolute favorite...
 So how can you go about finding a mechanic.  If you don't already have one 
 you probably just wait until the need arrises, that's what I always did. 
 Word of mouth is a great way to find a mechanic, but maybe you don't share 
-the same type of needs as your friend who suggested a mechanic to you.  
+the same type of needs as your friend who suggested a mechanic to you. 
 Maybe you have a European vehicle and your friend suggested a place that 
 specializes in Asian cars.  
 
