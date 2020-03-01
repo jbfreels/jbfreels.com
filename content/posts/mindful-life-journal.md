@@ -1,6 +1,7 @@
 ---
 title: "Mindful Life Journal"
 date: 2020-02-15T07:26:41-05:00
+lastmod: 2020-03-01
 categories: ["general"]
 tags: ["writing", "mindfulness", "journal", "ramblings"]
 ---
@@ -15,3 +16,6 @@ I forget now where I got my "rules" from, but they are fairly generic and probab
 Guess we can now put this to the test.  Though I do believe having a physical book in an area I frequent will definitely benefit my daily writing.  
 
 Tomorrow starts day one.
+
+## Update March 1st, 2020
+I've only missed one full day so far. The journal does have me do an entry at night and I'm not very fond of it. It asks you to reflect on the bad of the day and I don't really like that so I don't feel bad about missing nights. Maybe I should just skip that part.
