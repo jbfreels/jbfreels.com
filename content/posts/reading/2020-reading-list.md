@@ -3,7 +3,6 @@ title: "2020 Reading List"
 date: 2020-01-26T14:13:07-05:00
 tags: ["book", "reading"]
 categories: ["reading"]
-draft: false
 ---
 
 Here's my 2020 reading list, updated as I read more in 2020
@@ -16,3 +15,6 @@ Here's my 2020 reading list, updated as I read more in 2020
 ## February
 * **[Supermarket](https://amzn.com/1982127139)**
 * [The Outsorcerer's Apprentice](https://amzn.com/0316368792)
+
+## March
+* [Outliers: The Story of Success](https://amzn.com/0316017930)
