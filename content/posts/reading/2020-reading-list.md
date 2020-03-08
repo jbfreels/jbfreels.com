@@ -1,6 +1,7 @@
 ---
 title: "2020 Reading List"
 date: 2020-01-26T14:13:07-05:00
+lastmod: 2020-03-08
 tags: ["book", "reading"]
 categories: ["reading"]
 ---
