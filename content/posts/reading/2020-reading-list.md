@@ -19,3 +19,6 @@ Here's my 2020 reading list, updated as I read more in 2020
 
 ## March
 * [Outliers: The Story of Success](https://amzn.com/0316017930)
+
+## June
+* [The Kiss Quotient](https://amzn.com/0451490800)
