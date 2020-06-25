@@ -2,7 +2,7 @@
 baseurl = "https://jbfreels.com" #without ending slash
 languageCode = "en-us"
 staticDir = ["static", "themes/LoveIt/assets/others"]
-title = "JB Freels - Software Engineer"
+title = "@jbfreels"
 theme = "LoveIt"
 IgnoreFiles = [ ".DS_Store"]
 
