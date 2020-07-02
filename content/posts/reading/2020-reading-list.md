@@ -22,3 +22,4 @@ Here's my 2020 reading list, updated as I read more in 2020
 
 ## June
 * [The Kiss Quotient](https://amzn.com/0451490800)
+* [The Bromance Book Club](https://smile.amzn.com/1984806092)
