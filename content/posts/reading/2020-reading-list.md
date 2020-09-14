@@ -24,3 +24,9 @@ Here's my 2020 reading list, updated as I read more in 2020
 * [The Kiss Quotient](https://amzn.com/0451490800)
 * [The Bromance Book Club](https://amzn.com/1984806092)
 * [Giovanni's Room](https://amzn.com/0345806565)
+
+## August
+* [The Ballad of Songbirds and Snakes](https://amzn.com/1338635174)
+
+## September
+* [Life of Pi](https://amzn.com/0156027321)
