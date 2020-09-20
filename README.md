@@ -13,7 +13,7 @@ git clone https://github.com/dillonzq/LoveIt themes/LoveIt
 ```
 
 ### build
-`make build-productino`
+`make build-production`
 
 ### test
 `make server` 
