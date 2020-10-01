@@ -71,3 +71,11 @@ It must be at this location:
 MARIETTA, GA 30066
 ```
 I want the manager dressed as the Hamburglar.  
+
+# McUpdate
+I was contacted by corporate as well as the franchise owner. 
+They sent me some swanky cards for free meals.  While I was hoping for a birthday party or a gift-card for $0.10, this will 
+do.  They are only good for the McDonald's with the issue and a 
+few other locations, but they are not convenient.  I think I'll 
+go see what my favorite manager is up to this weekend, might have 
+to see if he's been given proper training as well...
