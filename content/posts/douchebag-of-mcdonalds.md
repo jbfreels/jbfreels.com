@@ -3,7 +3,7 @@ title: "Douchebag of McDonald's"
 date: 2020-09-20T08:24:40-04:00
 categories: ["general"]
 tags: ["mcdonalds", "storytime"]
-draft: false
+draft: true
 ---
 
 # Storytime
