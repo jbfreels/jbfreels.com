@@ -11,28 +11,33 @@ All links are where I purchased the item.  Usually get most my stuff from Amazon
 
 # hardware
 ## main dev - kira
-* MacBook Pro (13-inch, 2019, i7, 16 GB, Intel Iris Plus Graphics)
+* MacBook Pro (13-inch, 2019, i7, 16 GB)
 * [Apple Magic Trackpad 2 (space gray)](https://amzn.com/B07BRF3ZQD)
 * [Redragon K551-RGB Mechanical Keyboard](https://amzn.com/B019O8YZ4A)
 * [MOKiN USB-C Adapter](https://amzn.com/B081RCLP6G)
 * [Samsung 27" LED Curved Monitor](https://www.samsclub.com/p/27-inch-curve-led/prod22252448?)
 * [BenQ XL2720Z](https://amzn.com/B00GWFNMJS)
 
-<!--
-## main server - litterbox
-* 
--->
+## gaming - litterbox
+* ASRock Z77 Extreme4
+* i7 3770K, 32GB DDR3
+* NVIDIA GeForce GTX 1070
+* Multiple Samsung EVO 850 SSDs
+* Corsair Hydro Series™ H60 (2018) 120mm Liquid CPU Cooler
+
+> desperate need of an upgrade, but have made it 9+ years!  I was going to upgrade in 2021, but no GPUs available 🙄
 
 ## nas - lilnas
 * [Raspberry Pi 4 Model B w/4GB RAM](https://www.microcenter.com/product/609038/raspberry-pi-4-model-b---4gb-ddr4)
 * [Sabrent USB 3.0 to SATA Dual Bay External Hard Drive Docking Station](https://www.microcenter.com/product/602408/sabrent-usb-30-to-sata-dual-bay-external-hard-drive-docking-station)
 * [WD Red 8TB 256MB Cache](https://www.newegg.com/red-wd80efax-8tb/p/1Z4-0002-00B89?Item=1Z4-0002-00B89)
 
-# software
+## software
 * VSCode
 * ArcGIS Desktop 10.7.1
 * ArcGIS Enterprise 10.7.1
-* [LastPass](https://www.lastpass.com/)
+* ~~LastPass~~
+* [1Password](https://1password.com/)
 
 ## browser
 * [Firefox](https://www.mozilla.org/en-US/firefox/)
@@ -41,4 +46,4 @@ All links are where I purchased the item.  Usually get most my stuff from Amazon
 * [iTerm2](https://iterm2.com/)
   * [Z Shell](http://zsh.sourceforge.net/)
   * [Oh My Zsh](https://ohmyz.sh/)
-
+* [Vim](https://www.vim.org/)
