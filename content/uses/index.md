@@ -27,8 +27,14 @@ All links are where I purchased the item.  Usually get most my stuff from Amazon
 
 > desperate need of an upgrade, but have made it 9+ years!  I was going to upgrade in 2021, but no GPUs available 🙄
 
+## rust server - rusty
+* AMD Ryzen 3 2200G 8GB DDR4
+* [Ubuntu Server](https://ubuntu.com/download/server) 20.04
+* LGSM
+
 ## nas - lilnas
 * [Raspberry Pi 4 Model B w/4GB RAM](https://www.microcenter.com/product/609038/raspberry-pi-4-model-b---4gb-ddr4)
+* [Arch Linux](https://archlinux.org/) (btw I use arch)
 * [Sabrent USB 3.0 to SATA Dual Bay External Hard Drive Docking Station](https://www.microcenter.com/product/602408/sabrent-usb-30-to-sata-dual-bay-external-hard-drive-docking-station)
 * [WD Red 8TB 256MB Cache](https://www.newegg.com/red-wd80efax-8tb/p/1Z4-0002-00B89?Item=1Z4-0002-00B89)
 
