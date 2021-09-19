@@ -1,7 +1,7 @@
 ---
 title: "AWS-CLI Cognito Remove All Users"
 date: 2021-06-24T10:53:42-04:00
-categories: []
+categories: ["general"]
 tags: ["aws", "aws-cli", "cognito"]
 draft: false
 ---

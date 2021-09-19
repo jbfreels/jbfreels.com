@@ -9,7 +9,10 @@ draft: false
 Here's my 2021 reading list, updated as I read more in 2021!
 
 ## June
-* [Turtles All the Way Down](https://amzn.com/0525555374) - John Green (only a few more books of his left to read)
+* [Turtles All the Way Down](https://www.amazon.com/dp/0525555374) - John Green (only a few more books of his left to read)
 
 ## July
-* [How to Stop Time](https://amzn.com/0525522891) - Matt Haig
+* [How to Stop Time](https://www.amazon.com/dp/0525522891) - Matt Haig
+
+## September
+* [Never Split the Difference](https://www.amazon.com/dp/1847941494) - Chirs Voss
