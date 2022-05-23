@@ -16,3 +16,4 @@ Here's my 2021 reading list, updated as I read more in 2021!
 
 ## September
 * [Never Split the Difference](https://www.amazon.com/dp/1847941494) - Chirs Voss
+* [The Lean Startup](https://www.amazon.com/dp/0670921602) - Eric Ries
