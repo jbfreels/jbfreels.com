@@ -4,3 +4,5 @@ deploy
 themes/
 deploy.log
 resources/_gen/
+.hugo*
+.vscode

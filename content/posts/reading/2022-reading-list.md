@@ -15,3 +15,9 @@ Here's my 2022 reading list, updated as I read more in 2022!
 
 ## April
 - [Dexter's Final Cut](https://www.amazon.com/dp/0345802586) - Jeff Lindsay
+
+## June
+- [Death Note Short Stories](https://www.amazon.com/dp/2505111537) - Tsugumi Ohba (Author) , Takeshi Obata (Illustrator)
+
+## October
+- [Old Man's War](https://www.amazon.com/dp/0765315246) - John Scalzi
